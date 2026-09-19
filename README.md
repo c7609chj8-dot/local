@@ -28,7 +28,7 @@ npm install
 `.env.example`을 복사해 `.env.local`을 만듭니다.
 
 ```env
-NEXT_PUBLIC_KAKAO_MAP_KEY=카카오_JAVASCRIPT_KEY
+KAKAO_MAP_KEY=카카오_JAVASCRIPT_KEY
 KAKAO_REST_API_KEY=카카오_REST_API_KEY
 ```
 

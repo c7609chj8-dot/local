@@ -21,11 +21,11 @@ export function loadKakaoMapSdk(): Promise<KakaoMapGlobal> {
     return sdkPromise;
   }
 
-  const appKey = process.env.NEXT_PUBLIC_KAKAO_MAP_KEY;
+  const appKey = process.env.KAKAO_MAP_KEY;
 
   if (!appKey) {
     return Promise.reject(
-      new Error("NEXT_PUBLIC_KAKAO_MAP_KEY 환경변수가 설정되지 않았습니다."),
+      new Error("KAKAO_MAP_KEY 환경변수가 설정되지 않았습니다."),
     );
   }
 
